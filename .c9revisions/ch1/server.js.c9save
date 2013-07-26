@@ -1,0 +1,4 @@
+{"ts":1374799528306,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1374799436937,"patch":[[{"diffs":[[1,"console.log(\"Hello Node.js\");"]],"start1":0,"start2":0,"length1":0,"length2":29}]],"length":29,"saved":false}
+{"ts":1374799473482,"patch":[[{"diffs":[[-1,"console.log(\"Hello Node.js\""],[1,"var http = require('http');\r\nhttp.createServer(function (req, res) {\r\n  res.writeHead(200, {'Content-Type': 'text/plain'});\r\n  res.end('Hello World\\n');\r\n}).listen(process.env.PORT, process.env.IP);\r\nconsole.log('Server running at http://127.0.0.1:1337/'"],[0,");"]],"start1":0,"start2":0,"length1":29,"length2":256}]],"length":256,"saved":false}
+{"ts":1374799502424,"patch":[[{"diffs":[[0,"ning"],[-1," at http://127.0.0.1:1337/"],[0,"');"]],"start1":223,"start2":223,"length1":33,"length2":7}]],"length":230,"saved":false}
